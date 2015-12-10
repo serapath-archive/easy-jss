@@ -1,0 +1,25 @@
+{
+  "name": "easy-jss",
+  "version": "1.0.0",
+  "description": "use themable css from DOM tags",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serapath/easy-jss.git"
+  },
+  "author": "serapath <dev@serapath.de> (http://www.github.com/serapath)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serapath/easy-jss/issues"
+  },
+  "homepage": "https://github.com/serapath/easy-jss#readme",
+  "dependencies": {
+    "camelcase": "^2.0.1",
+    "jss": "^3.2.0",
+    "jss-cli": "^2.0.0",
+    "string-template": "^0.2.1"
+  }
+}
