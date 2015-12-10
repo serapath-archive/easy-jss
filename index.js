@@ -4,6 +4,9 @@ var jss     = require('jss')
 var cC      = require('camelcase')
 
 var sheetnames = {}
+
+module.exports = style
+
 function style (name, theme) {
   if (sheetnames[name]) {
     if (sheetnames[name].theme === JSON.stringify(theme)) {
